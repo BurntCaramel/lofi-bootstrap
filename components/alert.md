@@ -3,7 +3,8 @@
 ## variation: `text`
 info
 
-## content: `html`
+## content: `elements`
+This is an important message. Ignore me at your peril.
 
 ## view
 ```html
