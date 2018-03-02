@@ -12,7 +12,8 @@ A button with several `variation`s.
 
 ## class: text
 
-## content: html
+## content: elements
+Click me
 
 ## view
 ```html
