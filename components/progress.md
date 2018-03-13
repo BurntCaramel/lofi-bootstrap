@@ -18,10 +18,14 @@
 ## label: `text`
 {{ percent }}%
 
+## classes
+- [x] progress-bar-striped
+- [ ] progress-bar-animated
+
 ## view
 
 ```html
 <div class="progress">
-  <div class="progress-bar bg-{{ variation }}" role="progressbar" style="width: {{ percent }}%" aria-valuenow="{{ percent }}" aria-valuemin="0" aria-valuemax="100">{{ label }}</div>
+  <div class="progress-bar bg-{{ variation }} {{ classes }}" role="progressbar" style="width: {{ percent }}%" aria-valuenow="{{ percent }}" aria-valuemin="0" aria-valuemax="100">{{ label }}</div>
 </div>
 ```
