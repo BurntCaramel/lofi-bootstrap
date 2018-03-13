@@ -1,5 +1,9 @@
 # Card
 
+```html
+{{ view }}
+```
+
 ## size
 400
 
