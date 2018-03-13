@@ -13,7 +13,19 @@ This is an important message. Ignore me at your peril.
 - light
 - dark
 
+## show_close: `bool`
+```
+false
+```
+
 ## view
 ```html
-<div class="alert alert-{{ variation }}">{{ content }}</alert>
+<div class="alert alert-{{ variation }}">
+{{ content }}
+{{#show_close}}
+<button type="button" class="close" data-dismiss="alert" aria-label="Close">
+    <span aria-hidden="true">&times;</span>
+  </button>
+{{/show_close}}
+</alert>
 ```
