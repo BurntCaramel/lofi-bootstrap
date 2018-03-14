@@ -20,10 +20,10 @@ false
 
 ## view
 ```html
-<div class="alert alert-{{ variation }}">
+<div class="alert alert-{{ variation }} alert-dismissible" role="alert">
 {{ content }}
 {{#show_close}}
-<button type="button" class="close" data-dismiss="alert" aria-label="Close">
+  <button type="button" class="close" data-dismiss="alert" aria-label="Close">
     <span aria-hidden="true">&times;</span>
   </button>
 {{/show_close}}
