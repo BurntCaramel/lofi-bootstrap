@@ -1,0 +1,5 @@
+query ($content: String, $variation: Variation) {
+  view {
+    html
+  }
+}
