@@ -1,6 +1,6 @@
 # Alert
 
-## Variation
+## Variation: `String`
 
 - PRIMARY
 - SECONDARY
@@ -19,21 +19,19 @@ This is an important message. Ignore me at your peril.
 
 PRIMARY
 
-## show_close: `Bool`
+## showClose: `Bool`
 
-```
-false
-```
+`false`
 
 ## view
 
 ```html
 <div class="alert alert-{{ variation }} alert-dismissible" role="alert">
 {{ content }}
-{{#show_close}}
+{{#showClose}}
   <button type="button" class="close" data-dismiss="alert" aria-label="Close">
     <span aria-hidden="true">&times;</span>
   </button>
-{{/show_close}}
+{{/showClose}}
 </alert>
 ```

@@ -1,5 +1,5 @@
-query ($content: String, $variation: Variation) {
+query ($content: String, $variation: Variation, $showClose: Boolean) {
   view {
-    html
+    html(content: $content, $variation: variation, showClose: $showClose)
   }
 }
