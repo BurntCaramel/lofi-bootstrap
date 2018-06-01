@@ -2,7 +2,7 @@
 
 A button with several `variation`s.
 
-## variation: text
+## variation: String
 - primary
 - secondary
 - success
@@ -10,9 +10,9 @@ A button with several `variation`s.
 - warning
 - info
 
-## class: text
+## class: String
 
-## content: elements
+## content: [Element]
 Click me
 
 ## view
